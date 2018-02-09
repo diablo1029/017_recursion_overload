@@ -1,5 +1,10 @@
 package overload;
-
+/**
+<h1>Class</h1>
+* <p>
+* This is the Start Recursion class that contains a recursive function using an if statement. Recursive means it calls upon itself.
+* </p>
+*/
 public class StartRecursion {
 
 	public static void main(String[] args) {
@@ -14,7 +19,10 @@ public class StartRecursion {
 		recurseEvens(startValue, stopValue);
 
 	}
-
+	/**
+	 * Display a decrease of n by one every time the method is called upon by itself (recursed)
+	 * @param n
+	 */
 	private static void recurse(int n) {
 		System.out.println("recurse value is " + n + " on this recursion pass");
 		n--;
@@ -23,7 +31,10 @@ public class StartRecursion {
 		}
 		
 	}
-	
+	/**
+	 * Display an increase of n by one every time the method is recursed
+	 * @param n
+	 */
 	private static void recurseUp(int n) {
 		System.out.println("recurseUp value is " + n + " on this recursion pass");
 		n++;
